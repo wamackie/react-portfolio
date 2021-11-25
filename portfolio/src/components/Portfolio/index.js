@@ -9,7 +9,7 @@ function Portfolio() {
                         <div class="col-12">
                             <h3 class="projectHeadings">Blog-About-IT</h3>
                             <a href="https://thawing-headland-61830.herokuapp.com/">
-                                <img class="project-image" id="blog-about-it-img" src="./assets/images/blog-about-it.png" style="width:575.2px;height:312" alt="Blog-About-IT Technology Blog IT"></img>
+                                <img class="project-image" id="blog-about-it-img" src="" style="width:575.2px;height:312" alt="Blog-About-IT Technology Blog IT"></img>
                             </a>
                         </div>
                     </div>
