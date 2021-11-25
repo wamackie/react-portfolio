@@ -7,8 +7,6 @@ function App() {
       <main>
           <Nav>
           </Nav>
-          <Header>
-          </Header>
           <About>
           </About>
           <Portfolio>
