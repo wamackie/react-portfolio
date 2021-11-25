@@ -1,13 +1,190 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: helvetica;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --primary-color: rgb(103, 59, 134);
+  --secondary-color: #f8f5f5;
+  --tertiary-color: rgb(214, 149, 255);
+}
+
+li {
+  list-style:none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+div {
+  padding: 20px;
+}
+
+header {
+  border-radius: 2px;
+  border: grey;
+  padding: 75px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  padding: 20px;
+}
+
+body {
+  background-image: url('../../assets/images/forest.jpg');
+  background-size: cover;
+}
+
+header h1 {
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+header nav ul {
+  text-align: center;
+}
+
+body {
+  text-align: center;
+}
+
+#hero {
+  padding: 75px;
+
+}
+
+.projects {
+  padding: 20px;
+}
+
+img#selfPortrait {
+border: 2px solid rgba(54, 54, 54, 0.575);
+border-radius: 5px;
+}
+
+img#create-a-date-img {
+border: 2px solid rgba(54, 54, 54, 0.726);
+border-radius: 5px;
+}
+
+img#script-quiz-img {
+border: 2px solid rgba(54, 54, 54, 0.856);
+border-radius: 5px;
+}
+
+img#horiseon-img {
+border: 2px solid rgba(54, 54, 54, 0.856);
+border-radius: 5px;
+}
+
+img#run-buddy-img {
+border: 2px solid rgba(54, 54, 54, 0.856);
+border-radius: 5px;
+}
+
+
+#biography {
+margin: auto;
+width: 800px;
+background-color: rgba(255, 255, 255, 0.603);
+border: 2px solid rgba(54, 54, 54, 0.575);
+border-radius: 5px;
+}
+
+h2.section-title {
+margin: auto;
+width: 200px;
+background-color: rgba(255, 255, 255, 0.534);
+border: 2px solid rgba(54, 54, 54, 0.575);
+border-radius: 5px;
+padding: 5px;
+}
+
+h2.contact-title {
+margin: auto;
+width: 200px;
+background-color: rgba(255, 255, 255, 0.671);
+border: 2px solid rgba(54, 54, 54, 0.575);
+border-radius: 5px;
+padding: 5px;
+}
+
+h3.projectHeadings{
+margin: auto;
+width: 200px;
+background-color: rgba(255, 255, 255, 0.616);
+border: 2px solid rgba(54, 54, 54, 0.575);
+border-radius: 5px;
+padding: 5px;
+margin-bottom: 10px;
+}
+
+h3.projectHeadingsLower{
+margin: auto;
+width: 280px;
+background-color: rgba(255, 255, 255, 0.658);
+border: 2px solid rgba(54, 54, 54, 0.575);
+border-radius: 5px;
+padding: 5px;
+margin-bottom: 10px;
+}
+
+div.socials {
+margin: auto;
+height: 80px;
+width: 450px;
+background-color: rgba(255, 255, 255, 0.658);
+border: 2px solid rgba(54, 54, 54, 0.575);
+border-radius: 5px;
+}
+
+.social-img {
+position: relative; top: -48px;
+}
+
+div.contact-form {
+margin-top: 10px;
+width: 450px;
+background-color: rgba(255, 255, 255, 0.658);
+border: 2px solid rgba(54, 54, 54, 0.575);
+border-radius: 5px;
+padding: 5px;
+}
+
+@media screen and (max-width: 600px) {
+
+  .section-title {
+    width: 90%;
+  }
+
+  .works {
+    flex: 0 100%;
+    flex-direction: column;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+  .contact-info > * {
+    flex: 0 100%;
+  }
+  .contact-form {
+    order: 2;
+  }
+  .hero {
+    flex-direction: column;
+  }
+  .contact-msg {
+    flex-direction: column;
+    font-size: 80%;
+    flex: 0 60%;
+  }
 }
