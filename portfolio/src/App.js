@@ -5,6 +5,8 @@ function App() {
   return (
     <div>
       <main>
+          <Nav>
+          </Nav>
           <Header>
           </Header>
           <About>
