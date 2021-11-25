@@ -13,8 +13,6 @@ function App() {
           </About>
           <Portfolio>
           </Portfolio>
-          <Contact>
-          </Contact>
           <Footer>
           </Footer>
       </main>
